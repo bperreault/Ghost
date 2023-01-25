@@ -19,15 +19,15 @@ const GA_FEATURES = [
     'sourceAttribution',
     'memberAttribution',
     'audienceFeedback',
-    'themeErrorsNotification',
-    'emailStability'
+    'themeErrorsNotification'
 ];
 
 // NOTE: this allowlist is meant to be used to filter out any unexpected
 //       input for the "labs" setting value
 const BETA_FEATURES = [
     'activitypub',
-    'emailErrors'
+    'emailErrors',
+    'emailStability'
 ];
 
 const ALPHA_FEATURES = [
